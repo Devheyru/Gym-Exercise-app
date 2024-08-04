@@ -2,13 +2,13 @@ export const ExerciseOptions = {
   method: "GET",
   headers: {
     "x-rapidapi-host": "exercisedb.p.rapidapi.com",
-    "x-rapidapi-key": "d0853dd11bmshd64a22cf931edeep199f5ejsne9ef0c355539",
+    "x-rapidapi-key": import.meta.env.VITE_APP_API_KEY,
   },
 };
 export const youtubeOptions = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": "d0853dd11bmshd64a22cf931edeep199f5ejsne9ef0c355539",
+    "x-rapidapi-key": import.meta.env.VITE_APP_API_KEY,
     "x-rapidapi-host": "youtube-search-and-download.p.rapidapi.com",
   },
 };

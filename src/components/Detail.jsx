@@ -31,7 +31,7 @@ const Detail = ({ exerciseDetail }) => {
       <Stack sx={{ gap: "35px", xs: "20px" }}>
         <Typography variant="h1">{name}</Typography>
         <Typography variant="h6">
-          Exercises keep you strong. {name} {` `}
+          Exercises keep you strong. <span color="#ff2625">{name}</span>
           is one of the best exercises to target your {target}. It will help you
           improve your mood and gain energy
         </Typography>

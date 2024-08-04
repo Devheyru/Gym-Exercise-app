@@ -3,7 +3,14 @@ import React from "react";
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
   return (
-    <Box sx={{ mt: { lg: "200px", xs: "20px" } }} p="20px">
+    <Box
+      sx={{
+        mt: { lg: "200px", xs: "20px" },
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+      p="20px"
+    >
       <Typography variant="h4" mb="33px">
         Watch{" "}
         <span style={{ color: "#ff2625", textTransform: "capitalize" }}>
@@ -13,7 +20,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         exercise videos
       </Typography>
       <Stack
-        justifyContent="flex-start"
+        justifyContent="center"
         flexWrap="wrap"
         alignItems="center"
         sx={{

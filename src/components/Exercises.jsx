@@ -46,7 +46,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       p="20px"
     >
       <Typography variant="h3" mb="46px">
-        Showing Results
+        Showing Some Exercises
       </Typography>
       <Stack
         direction="row"
@@ -59,7 +59,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         ))}
       </Stack>
       <Stack mt="100px" alignItems="center">
-        {exercises.length > 4 && (
+        {exercises.length > 9 && (
           <Pagination
             color="primary"
             shape="rounded"

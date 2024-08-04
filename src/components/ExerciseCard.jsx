@@ -7,10 +7,11 @@ const ExerciseCard = ({ exercise }) => {
       <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
       <Stack direction="row">
         <Button
+          className="exercise-btn"
           sx={{
             ml: "21px",
             color: "#fff",
-            background: "#ffa9a9",
+            background: "#35FF34",
             fontSize: "14px",
             borderRadius: "20px",
             TextTransform: "capitalize",
@@ -19,10 +20,11 @@ const ExerciseCard = ({ exercise }) => {
           {exercise.bodyPart}
         </Button>
         <Button
+          className="exercise-btn"
           sx={{
             ml: "21px",
             color: "#fff",
-            background: "#fcc757",
+            background: "#1B89FF",
             fontSize: "14px",
             borderRadius: "20px",
             TextTransform: "capitalize",

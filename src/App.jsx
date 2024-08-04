@@ -1,7 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
 import { Routes, Route } from "react-router-dom";
-import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navebar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
