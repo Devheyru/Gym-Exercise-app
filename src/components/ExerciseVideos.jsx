@@ -41,9 +41,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
               <Typography variant="h5" color="#000">
                 {item.video.title}
               </Typography>
-              <Typography variant="h6" color="#000">
-                {item.video.channelName}
-              </Typography>
+              <Typography variant="h6">{item.video.channelName}</Typography>
             </Box>
           </a>
         ))}
